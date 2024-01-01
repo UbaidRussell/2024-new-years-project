@@ -1,5 +1,18 @@
-body{
-    background-color: #264D59;
+body {
+    display: flex;
+    align-items: center;
     font-family: 'Playfair Display', serif;
-    font-size: 150%;
-}
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #264D59;
+  }
+  
+  h1 {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  h1.fade-in {
+    opacity: 1;
+  }
